@@ -824,12 +824,12 @@ input[type='checkbox'] {
 }
 
 .slider-1 .card-image {
-	width: 6rem;
-	height: 6rem;
+	width: 5rem;
+	height: 5rem;
 	margin-right: auto;
 	margin-bottom: 0.25rem;
 	margin-left: auto;
-	border-radius: 50%;
+	border-radius: 15%;
 }
 
 .slider-1 .card-body {
