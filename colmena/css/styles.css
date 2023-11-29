@@ -757,11 +757,11 @@ input[type='checkbox'] {
 body {
   margin: 0;
   font-family: Arial;
-  font-size: 17px;
+  font-size: 20px;
 }
 
 #myVideo {
-  position: fixed;
+  position: static;
   right: 0;
   bottom: 0;
   min-width: 100%; 
