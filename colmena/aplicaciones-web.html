@@ -15,6 +15,7 @@
   <h1>Aplicaciones Web</h1>
   <h4 style="text-align:justify">Ya sea que necesites una página web informativa o un sitio web interactivo, nuestro equipo de diseñadores y desarrolladores trabajará contigo para crear una presencia en línea impactante y efectiva.</h4>
   <button id="myBtn" onclick="myFunction()">Pause</button>
+  <button href="index.html" id="myBtn" onclick="redirectToInicio()">Atras</button>
 </div>
 
 <script>
@@ -31,5 +32,12 @@ function myFunction() {
   }
 }
 </script>
+
+<script>
+  function redirectToInicio() {
+      window.location.href = "index.html"; // Reemplaza "index.html" con la ruta correcta si es necesario
+  }
+</script>
+
 </body>
 </html>

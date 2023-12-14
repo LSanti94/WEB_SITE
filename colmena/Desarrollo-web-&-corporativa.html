@@ -14,6 +14,7 @@
   <h1>WEB PROFESIONAL</h1>
   <h4 style="text-align:justify"><h4 style="text-align:justify">Creamos sitios web corporativos personalizados que transmiten confianza y credibilidad a tus clientes. Destaca en el mercado con una presencia en línea que refleje la calidad y el éxito de tu empresa.</h4>
   <button id="myBtn" onclick="myFunction()">Pause</button>
+  <button href="index.html" id="myBtn" onclick="redirectToInicio()">Atras</button>
 </div>
 
 <script>
@@ -29,6 +30,11 @@ function myFunction() {
     btn.innerHTML = "Play";
   }
 }
+</script>
+<script>
+  function redirectToInicio() {
+      window.location.href = "index.html"; // Reemplaza "index.html" con la ruta correcta si es necesario
+  }
 </script>
 </body>
 </html>
